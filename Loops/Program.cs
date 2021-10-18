@@ -57,13 +57,28 @@ namespace Loops
 			// 3) increment loop variable
 			// ++ means +1
 
-			int 
+
 			for (int i = 1; i <= 10; i = i + 1)
 			{
 				Console.WriteLine(i);
 
 			}
 			Console.ReadKey(true);
+
+
+			// Game Loop
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 	}
 }
