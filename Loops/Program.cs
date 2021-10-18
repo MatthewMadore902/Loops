@@ -49,7 +49,20 @@ namespace Loops
 			Console.WriteLine(count); count = count + 1;
 
 			Console.WriteLine("Loops");
+			Console.WriteLine();
 
+			// for loops components:
+			// 1) declaration/initialization of loop variables
+			// 2) stop condition
+			// 3) increment loop variable
+			// ++ means +1
+
+			int 
+			for (int i = 1; i <= 10; i = i + 1)
+			{
+				Console.WriteLine(i);
+
+			}
 			Console.ReadKey(true);
 		}
 	}
